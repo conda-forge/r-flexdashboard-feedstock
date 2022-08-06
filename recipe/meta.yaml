@@ -26,19 +26,25 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-htmltools
+    - r-bslib >=0.2.5
+    - r-htmltools >=0.5.1
     - r-htmlwidgets >=0.6
     - r-jsonlite
     - r-knitr >=1.13
-    - r-rmarkdown >=1.10.3
+    - r-rmarkdown >=2.8
+    - r-sass
+    - r-scales
     - r-shiny >=0.13
   run:
     - r-base
-    - r-htmltools
+    - r-bslib >=0.2.5
+    - r-htmltools >=0.5.1
     - r-htmlwidgets >=0.6
     - r-jsonlite
     - r-knitr >=1.13
-    - r-rmarkdown >=1.10.3
+    - r-rmarkdown >=2.8
+    - r-sass
+    - r-scales
     - r-shiny >=0.13
 
 test:
