@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/flexdashboard_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/flexdashboard/flexdashboard_{{ version }}.tar.gz
-  sha256: 75462d53e6df4e858e0ecea08df57df31b27372ea0e00d898a4cf76e14137c2f
+  sha256: b4975d44ee97ed0fa2387fd55a6cfa2dfe636c8bc1f46e0617afe1a14954b4d3
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
