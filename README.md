@@ -1,11 +1,11 @@
-About r-flexdashboard
-=====================
+About r-flexdashboard-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-flexdashboard-feedstock/blob/main/LICENSE.txt)
 
 Home: http://rmarkdown.rstudio.com/flexdashboard
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-flexdashboard-feedstock/blob/main/LICENSE.txt)
 
 Summary: Format for converting an R Markdown document to a grid oriented dashboard. The dashboard flexibly adapts the size of it's components to the containing web page.
 
